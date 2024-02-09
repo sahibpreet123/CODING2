@@ -1,0 +1,27 @@
+.button {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.button--disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Additional Styles */
+.button:focus {
+  outline: none; /* Remove outline on focus */
+}
+
+.button:active {
+  transform: translateY(1px); /* Add a slight downward movement when button is clicked */
+}
